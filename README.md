@@ -5,12 +5,6 @@ This project simulates how a network router stores fixed (non-volatile) configur
 We used tuples to store permanent IP address + port combinations and mapped them to device names using dictionaries.  
 Because tuples are immutable, the configuration cannot be changed accidentally once it is set — just like real router settings that stay in non-volatile memory.
 
-## Team Members
-1.⁠ ⁠[Md Sikandar] - [BWU/BTA/25/563] - (Lead / Coding / Documentation)
-2.⁠ ⁠[Shivam Kumar] - [BWU/BTA/25/554] - (Coding / Testing)
-3.⁠ ⁠[Sunrise Sk] - [BWU/BTA/25/555] - (Documentation / Presentation)
-4.⁠ ⁠[Samima Nasrin] - [BWU/BTA/25/572] - (Testing / Research)
-
 ## Features
 •⁠  ⁠Store device name → (IP address, port) using dictionary + tuple
 •⁠  ⁠Prevent accidental modification of configuration (tuples are immutable)
